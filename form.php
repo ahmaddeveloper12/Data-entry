@@ -38,6 +38,9 @@
                 </div>
 
                 <button type="submit" class="btn-login">Submit</button>
+                <br>
+                <br>
+                <button type="Reset" class="btn-login">Reset data</button>
 
                 
 
