@@ -8,6 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marquee Headline with Space</title>
+  <style>
+    .marquee-container {
+      background-color: #333;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 10px 0; /* Add space at the top and bottom */
+      margin: 20px 0;  /* Add space before and after marquee */
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    marquee {
+      padding-left: 50px; /* Add space before the text inside the marquee */
+      padding-right: 50px; /* Add space after the text inside the marquee */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="marquee-container">
+    <marquee behavior="scroll" direction="left">Kindly fill the form ! thanks</marquee>
+  </div>
+
+</body>
+</html>
 
     <div class="login-container">
         <div class="login-form">

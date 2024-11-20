@@ -3,6 +3,7 @@
     <title>How to Write a Program</title>
 </head>
 <body>
+    <center>
     <?php
        // Collect form data from POST request
        $father = $_POST["father"];
@@ -35,5 +36,6 @@
            $conn->close();
        }
     ?>
+    </center>
 </body>
 </html>
